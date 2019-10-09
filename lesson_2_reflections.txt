@@ -1,0 +1,6 @@
+after git init, a .git directory appears to keep the git status.
+no commits have been done, so the status reflects that.
+any (noncommitted) files in the directory are reflected as that in the status
+
+
+staging area is part of the working directory - files that have been designated by the git add command as pending a commit
