@@ -1,0 +1,22 @@
+diff
+   strips away exact match lines so focus is on differences, which are potentially errors.
+access to old versions:
+   ability to revert for comparison
+   follow development progress.
+
+pros and cons of manual commit
+   con:
+      too long between commits can risk loss of info
+   pros
+      restricting commits to meaningful releases makes them more useful
+
+why do some non-git systems not support multiple file repository/commits?
+     they are not meant for a interdependents system of files.
+
+how to use git log and git diff to view file history
+      use git log to find the commit of interest id (if it has been helpfully annotated)
+      use git diff to see the changes from the previous commit
+
+with change control, if changes break something, reverting back is easier.
+
+I plan to use git to track python scripts for larger projects
