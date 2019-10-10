@@ -4,3 +4,15 @@ any (noncommitted) files in the directory are reflected as that in the status
 
 
 staging area is part of the working directory - files that have been designated by the git add command as pending a commit
+
+using git add and git commit as each logical change is best practice. 
+having a definition of "logical change" may be difficult.
+
+branches are useful when a change is not ready to be introduced into the main branch - e.g., I want to experiment with it or it is just an early thought
+
+the graph view of branches shows that which commits are in the history of a particular branch and how much change has been since the last branch
+
+merging to the current branch adds the changes from the merged branch to the branch. 
+This might not result in good code if the changes conflict logicallly
+
+automatic merge might save time for simple changes, manual merge could likely result in better, more efficient code if there is overlap of changes.
