@@ -2,3 +2,16 @@ a remote repository would be used:
      - for a multi-user development situation
      - when you may want to access the development from multiple endpoints
           - e.g., as a way to survive a local PC crash
+
+automatically pulling from github during active multiple developer scenarios may destabalize the local development environment if master is not tightly controlled.
+
+forks, clones and branches
+     forks are best when wanting to start with a copy of someone elses repository for your own (possibly shared) git hub repository
+    
+      clones are also repository copies but generally for remote (e.g., github) to local copy (or local to local)
+
+      branch - extends and exisiting repository rather than create a copy when it is not appropriate to add new code to an existing branch such as master.
+
+benefits of having an up todate local copy of a remote branch:
+     - changes can be made without the need to merge to other changes   
+     - avoid the possibility of a conflict that can be difficult to resolve.
