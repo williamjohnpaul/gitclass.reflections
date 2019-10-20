@@ -15,3 +15,7 @@ forks, clones and branches
 benefits of having an up todate local copy of a remote branch:
      - changes can be made without the need to merge to other changes   
      - avoid the possibility of a conflict that can be difficult to resolve.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+     - for a simple case, a shared directory with an editor like word, that supports revisions
+     - otherwise, likely a shared cloud server with a package like subversion
